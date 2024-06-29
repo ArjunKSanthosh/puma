@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    position: relative;
+    background-image:url('puma1.jpg');
+
+}
+.bg{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+.flat{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(253, 229, 15);
+    font-size: 70px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(247, 243, 20);
+    font-size: 300px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    float: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.off{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(253, 229, 15);
+    font-size: 70px;
+    position: absolute;
+    top: 520px;
+    left: 730px;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.child{
+    text-shadow: 2px 2px 4px #000000;
+    color: white ;
+    position: relative;
+    left: 65%;
+    top: 38%;
+    width: 469px;
+
+}
+.end{
+    text-shadow: 4px 2px 4px #000000;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.deal{
+    top: 300px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.extra
+{
+    top: 100px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+    font-size: 15px;
+    left: 30px;
+    letter-spacing: 2px;
+    position:absolute;
+}
+.button{
+    position: relative;
+    margin-left: 20px;
+}
+.bt1{
+    position: absolute;
+    top:100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bt2{
+    position: absolute;
+    top:100px;
+    left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bt3{
+    position: absolute;
+    top:100px;
+    left: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
