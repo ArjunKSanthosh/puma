@@ -11,6 +11,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     line-height: 6vh;
+    
 }
 .nav{
     width: 100%;
@@ -95,13 +96,34 @@
     border-radius: 50%;
     background-color: rgb(46,44,44);
 }
-.container{
+.pink{
     width: 100%;
     height: 50vh;
     background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));  
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.container h1{
+.flat h2{
     color: white;
-  
+    font-size: 40px ;
+    font-family:"Noto Sans Masaram Gondi", sans-serif;
+
+    
+}
+.deal h4{
+    padding-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.extra h5{
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
