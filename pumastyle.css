@@ -21,6 +21,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .left {
     width: 50%;
@@ -103,27 +107,467 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .flat h2{
+    margin-left: 40px;
     color: white;
-    font-size: 40px ;
-    font-family:"Noto Sans Masaram Gondi", sans-serif;
+    font-size: 43px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.deal p{
+    padding-top: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    margin-top: 70px;
+    width: 52%;
+    height: 30vh;
+}
+.extra p{
+    padding-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.b{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 20px; 
 
+}
+.bt1,.bt2,.bt3{
+    font-size: 16px;
+    font-weight: bold;  
+    margin-left: 10px;
+    padding: 15px 30px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.cool{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.text2{
+    height: 35vh;
+    text-align: center;
+    margin-top: 60px;
+}
+.text2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+}
+.text2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.circle {
+    height: 50%;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20PX;
+}
+.cir{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid rgb(235, 137, 9);
+    color: aliceblue;
+}
+.cirdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    color: aliceblue;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+}
+.model{
+    width: 100%;
+    height: 52vh;
+    background-image: url('puma3.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.carrot{
+    text-shadow: 2px 2px 4px #000000;    
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+.carrot h2{
+    font-size: 43px;
+}
+.anwar {
+    font-size: 25px;
+}
+.organic{
+    font-size: 15px;
+
+}
+.bt4{
+    margin-top: 10px;
+    padding: 15px 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    font-weight: bold; 
+}
+.carrots {
+    top: 10px;
+    width: 250px;
+    position: absolute;
+    right: 2%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.carrots img{
+    width: 60px;
+    height: 60px;
+}
+.carrots p{
+    font-size: 50px;
+    color: rgb(188, 186, 186);
+}
+.palm{
+    margin-top: 8px;
+    width: 100%;
+    height: 72vh;
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.men{
+    display: flex;
+  color: white;
+    width: 100%;
+    height: 72vh;
+    background-color: #000000;
+}
+.men img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img2,.img1{
+    width: 100vw;
+    color: white;
+}
+.text3{
+
+    color: white;
     
 }
-.deal h4{
-    padding-top: 10px;
+.pxp{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
-.extra h5{
-    padding-top: 10px;
+.pxp p{
     font-size: 20px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 17px;
+}
+.img3{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+.img4{
+    border-right: 1px solid white;
+    padding-right: 20px;
+    position: absolute;
+    top: 2%;
+    right: 6%;  
+    width: 60px;
+    height: 60px;
+}
+.border{
+    position: absolute;
+    border: 3px solid white;
+    width: 300px;
+    height: 300px;
+    top:-1px;
+}
+.pxp button{
+    padding: 15px 30px; 
+    margin-top: 50px;
+    left: 25%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    font-weight: bold; 
+}
+.forever{
+    width:100%;
+    height: 60vh;
+    background-image: url(hoodie2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+   
+}
+.faster{
+    font-size: 40px;
+    position: absolute;
+    width: 98%;
+    height: 60vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    top: 10px;
+}
+.faster img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+.bt{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 30px; 
+    font-size: 16px;
+}
+.cards{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:5%;
+}
+.grid1{
+    text-align: center;
+    width: 48%;
+    height: 100%;
+}
+.cimg{
+    height: 80%;
+}
+.cimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.cont p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.cont button{
+    background-color: black;
+    color: white;
+    padding: 15px 100px; 
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+.future{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(189, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.two{
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    background-image: url(twooo.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+}
+.now{
+    position: absolute;
+    width: 30%;
+    color: white;
+    right: 8%;
+    top: 35%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.now h1{
+    font-size: 45px;
+}
+.now p{
+    font-size: 25px;
+}
+.now button{
+    margin-top: 15px;
+    padding: 15px 30px;  
+}
+.now .parag {
+    margin-top: 5px;
+    font-size: 16px;
+}
+.kids{
+    width: 100%;
+    height: 10vh;
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.card{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.school{
+    width: 23%;
+    height: 100%;
+    background-image: url(schoolg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+    
+}
+.casual{
+    width: 23%;
+    height: 100%;
+    background-image: url(casual.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+}
+.soft{
+    width: 23%;
+    height: 100%;
+    background-image: url(shoe.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+}
+.sets{
+     width: 23%;
+    height: 100%;
+    background-image: url(chair.jpg);
+    background-repeat: no-repeat;    
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+}
+.card h1{
+    margin-top: 80%;
+    margin-left: 10px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+    text-shadow:1px 1px 1px #000000;
+}
+.card p{
+    margin-left: 10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-shadow:1px 1px 1px #000000;
+
+}
+.nitro{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(187, 198, 219);
+    margin-top: 90px;
+    position: relative;
+    
+}
+.run img{
+    height: 95vh;
+    width: 45%;
+    position: absolute;
+    right: 5%;
+    top: -10%   ;
+}
+.shoe1 img{
+    position: absolute;
+    width: 50%;
+    height: 65vh;
+    left: 4%;
+    top: 30%;
+    z-index: 2;
+}
+.nitro h1{
+    position: absolute;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 4%;
+    margin-top: 40px;
+}
+.nitro p{
+    position: absolute;
+    font-size: 18px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    margin-top: 95px;
+    letter-spacing: 3px;
+}
+.nitro button{
+    
+
+    margin-top: 15px;
+    padding: 10px 20px;
+ 
+    background-color: black;
+    color: white; 
+    font-weight: bolder;
+    margin-top: 120px;
+}
+.nitro sup{
+    font-size: 20px;
+}
+.bf1{
+    margin-right: 10px;
+    margin-left: 70px;
 }
