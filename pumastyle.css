@@ -571,3 +571,163 @@
     margin-right: 10px;
     margin-left: 70px;
 }
+.manchester{
+    margin-top: 11%;
+    width: 100%;
+    height: 70vh;
+    background-color: yellow;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.blue{
+    /* left: 0; */
+    width: 50%;
+    height: 70vh;
+    background-color: blue;
+    background-image: url(silkblue.jpg);
+    object-fit: cover;
+   /*  background-size: cover;
+    */
+    /* position: absolute; */
+}  
+.jersy{
+    /* position: absolute;
+    left: 50%; */
+    width: 50%;
+    height: 70vh;
+    background-image: url(jersey.jpg);
+    background-color: black;
+    object-fit: cover;
+    background-size: cover; 
+
+}
+.content{
+    color: white;
+    width: 60%;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+}
+.content button{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.bb{
+    margin-right:10px ;
+}
+.image{
+    width: 400px;
+    margin-top: 10px;
+    height: 10px;
+    margin-left: 75%;
+}
+.image img{
+    height: 70px;
+    padding-left: 20px;
+    
+}
+.log{
+    border-right: 3px solid white;
+    padding-right: 15px;
+}
+.kareena{
+    width: 100%;
+    height: 60vh;
+    background-color: aqua;
+    background-image: url(bgm.jpg);
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.shoes2{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    background-image: url(grids.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    top: 80px;
+}
+.sky{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    background-image: url(sky.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin-left: 23%;
+    top: 5%;
+}
+.sky2{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    background-image: url(sky2.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin-left: 23%;
+    top: 58%;
+}
+.sky3{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    background-image: url(Kareenak.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin-left: 49%;
+    top: 10%;
+}
+.content2{
+    position: absolute;
+    width: 27%;
+    text-align: center;
+    right: 2%;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content2 p{
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.content2 button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+ .content2 h1{
+    font-size: 35px;
+}
+
+.spot{
+    padding-top: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.grid2{
+    width: 100%;
+    height: 40vh;
+    margin-top: 10px;
+    background-color: yellow;
+    display: flex;
+}
