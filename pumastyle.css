@@ -22,6 +22,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: ce;
     position:-webkit-sticky;
     position: sticky;
     top: 0;
@@ -152,6 +153,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .cool{
+    
     width: 100%;
     height: 50vh;
     display: flex;
@@ -205,6 +207,7 @@
     background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
 }
 .model{
+    background-color: blue;
     width: 100%;
     height: 52vh;
     background-image: url('puma3.jpg');
@@ -406,6 +409,8 @@
 
 }
 .future{
+    text-shadow: 1px 1px 3px black;
+
     width: 100%;
     height: 70vh;
     background-color: rgb(189, 187, 187);
@@ -462,6 +467,7 @@
   
 }
 .school{
+    
     width: 23%;
     height: 100%;
     background-image: url(schoolg.jpg);
@@ -490,6 +496,7 @@
     background-position: center;
 }
 .sets{
+    
      width: 23%;
     height: 100%;
     background-image: url(chair.jpg);
@@ -720,7 +727,8 @@
 }
 
 .spot{
-    padding-top: 50px;
+    font-size: 15px;
+    padding-top: 40px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
@@ -736,8 +744,8 @@
     margin-top: 10px;
     display: flex;
     overflow-x: scroll;
-    scrollbar-width: none;
-    align-items: center;
+      align-items: center;
+    position: relative;
 
 }
 .card7{
@@ -763,11 +771,266 @@
 .conte{
     font-size: 10px;
     display: flex;
- 
-    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
     height: 60%;
 }
 .conte2{
     font-size:10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pri{
+ color: brown;
+}
+.stri{
+    opacity: .5;
+}
+.per{
+    background-color: brown;
+    width: 40px;
+    height: 20px;
+    padding-top: 5px;
+    border-radius: 9%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 8px;
+    position: absolute;
+    margin-top: 7pxpx;
+}
+.athlet{
+    margin-top: 40px;
+    width: 100%;
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
 
+}
+.athcon{
+    width: 45%;
+    height: 70vh;
+    background: linear-gradient(to top, #339797 0%, #e15e5e 50%, #339797 100%);
+    position: relative;
+}
+.ath{
+    width: 55%;
+    height: 70vh;
+    background-color: blue;
+    background-image: url(pa.jpg);
+    object-fit: cover;
+    background-size: cover;
+}
+.contenti{
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenti h1{
+    text-shadow: 1px 1px 3px black;
+    font-size: 43px;
+    color: white;
+}
+.contenti p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+}
+.contenti button{
+    padding: 15px 25px;
+    margin-top: 15px;
+}
+.spot2{
+    padding-top: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.footer{
+    position: relative;
+    margin-top: 8%;
+    width: 100%;
+    height: 62vh;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.list1 h1{
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+.list1{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: 50px;   
+}
+.list1 li{
+    opacity: 0.6;
+    list-style-type: none;
+    line-height: 30px;
+}
+.list2{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 28%;
+    margin-top: 70px;   
+}
+.list2{
+    list-style-type: none;
+    line-height: 30px;
+    opacity: 0.7;
+
+}
+.list3{
+   
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 50%;
+    margin-top: 47px;   
+}
+.list3 li{
+    list-style-type: none;
+    line-height: 27px;
+    opacity: 0.7;
+}
+.list3 h1{
+    font-size: 20px;
+    padding-bottom: 2px;  
+}
+.stay h1{
+    margin-left: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 47px;   
+    color: white;
+    
+}
+.stay p{
+    margin-left: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 17px;
+    opacity: 0.7;
+    margin-top: 5%;   
+    color: white;
+}
+.list5{
+    position: absolute;
+    margin-left: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    height: 10px;
+}
+.stay ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 70%;
+    padding-top: 8%;
+}
+.stay img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10%;
+}
+.stay h2{
+    margin-left: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 20px;   
+    color: white;
+    
+}
+.puli{
+    position: absolute;
+    right: 23%;
+    display: inline;
+    top: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    padding-left: 8px;
+    border-radius:15%;
+}
+.puli2{
+    position: absolute;
+    display: inline;
+    right: 27%;
+    top: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    padding-left: 8px;
+    border-radius:15%;
+}
+.footer2{
+    width: 99%;
+    height: 65%;
+    border-bottom:1px solid white;
+    margin-left: 10px;
+
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.foot ul{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+    /* padding-top: 50px; */
+
+}
+.foot img{
+    width: 45px;
+    height: 30px;
+}
+.foot li{
+    padding-left: 10px;
+}
+.india{
+    border: 1px solid white;
+   margin-left: 12%;
+   width: 9%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+  
+}
+.india img{
+    height: 52px;
+    width: 55px;
+    border-radius: 50%;
+    
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 50px;
+    font-size: 14px;
+    opacity: .6;
+}
+
+.ind{
+    padding-left: 20px;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
